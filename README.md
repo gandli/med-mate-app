@@ -15,3 +15,27 @@
 - 微信小程序
 - Supabase
 - 大模型AI解读
+## 项目结构
+
+
+
+## 快速开始
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/gandli/medmate.git
+   ```
+
+2. 查看产品文档：
+   - [PRD.md](PRD.md) - 完整产品需求文档
+
+## 开发计划
+
+- [ ] MVP 开发（P0功能）
+- [ ] 微信小程序框架搭建
+- [ ] Supabase 后端配置
+- [ ] AI 解读引擎集成
+
+## 许可证
+
+MIT License
