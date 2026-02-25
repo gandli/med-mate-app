@@ -1,55 +1,53 @@
-# MedMate (伴药)
-慢性病患者及家属的本地化健康管理工具
+# MedMate
+A localized health management tool for chronic disease patients and their families
 
-## 项目概述
-专注用药管理、症状追踪、复诊提醒的微信小程序
+## Project Overview
+A WeChat mini-program focused on medication management, symptom tracking, and follow-up appointment reminders
 
-## 核心功能
-- 用药管理（多药协同、中西药覆盖）
-- 症状追踪
-- 复诊提醒
-- 家属协同
-- 安全检测（药物相互作用）
+## Core Features
+- **Medication Management** (multi-drug coordination, coverage of both Chinese and Western medicine)
+- **Symptom Tracking**
+- **Follow-up Appointment Reminders**
+- **Family Collaboration**
+- **Safety Detection** (drug interactions)
 
-## 技术栈
-- 微信小程序
+## Tech Stack
+- WeChat Mini Program
 - Supabase
-- 大模型AI解读
-## 项目结构
+- Large model AI interpretation
 
+## Quick Start
 
+1. Clone the repository:
+```bash
+git clone https://github.com/gandli/medmate.git
+```
 
-## 快速开始
+2. View product documentation:
+- [PRD.md](PRD.md) - Complete product requirements document
 
-1. 克隆仓库：
-   ```bash
-   git clone https://github.com/gandli/medmate.git
-   ```
+## Development Plan
 
-2. 查看产品文档：
-   - [PRD.md](PRD.md) - 完整产品需求文档
+- [ ] MVP development (P0 features)
+- [ ] WeChat mini-program framework setup
+- [ ] Supabase backend configuration
+- [ ] AI interpretation engine integration
 
-## 开发计划
-
-- [ ] MVP 开发（P0功能）
-- [ ] 微信小程序框架搭建
-- [ ] Supabase 后端配置
-- [ ] AI 解读引擎集成
-
-## 许可证
+## License
 
 MIT License
-## 项目名称
 
-- **中文名**: 伴药
-- **英文名**: MedMate
-- **寓意**: 陪伴用药，智能伴侣
+## Project Name
 
-## 核心价值
+- **Chinese Name**: 伴药
+- **English Name**: MedMate
+- **Meaning**: Companion medication, intelligent companion
 
-大厂做"查一下"，我们做"管起来"：
+## Core Value
 
-1. **多药全周期管理**（不是单次查药）
-2. **中西药全覆盖**（中药饮片/中成药/院内制剂）
-3. **家属协同**（子女远程监督父母吃药）
-4. **安全检测**（多药相互作用+中西药冲突+肝肾负担）
+Big companies do "look it up", we do "manage it":
+
+1. **Multi-drug full-cycle management** (not just single-time drug lookup)
+2. **Coverage of both Chinese and Western medicine** (Chinese herbal decoctions, Patent Chinese Medicine, hospital-prepared formulations)
+3. **Family collaboration** (children remotely supervise parents medication intake)
+4. **Safety detection** (drug interactions + Chinese-Western medicine conflicts + liver/kidney burden)
